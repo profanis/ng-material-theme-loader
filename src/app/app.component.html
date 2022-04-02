@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <h1>Demo</h1>
+    <span class="menu-spacer"></span>
+    <div>
+      <a mat-button [routerLink]="'/'"> Home (blue - light) </a>
+      <a mat-button [routerLink]="['/admin']"> Admin (pink - dark) </a>
+      <a mat-button [routerLink]="['/dashboard']"> Dashboard (blue - light) </a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

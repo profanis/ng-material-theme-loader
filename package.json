@@ -1,0 +1,57 @@
+{
+  "name": "theme-loader",
+  "author": {
+    "name": "Fanis Prodromou",
+    "email": "prodromouf@gmail.com"
+  },
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "build:stats": "ng build --stats-json",
+    "analyze": "webpack-bundle-analyzer dist/theme-loader-app/stats.json"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~13.2.0",
+    "@angular/cdk": "^12.2.13",
+    "@angular/common": "~13.2.0",
+    "@angular/compiler": "~13.2.0",
+    "@angular/core": "~13.2.0",
+    "@angular/forms": "~13.2.0",
+    "@angular/material": "^12.2.13",
+    "@angular/platform-browser": "~13.2.0",
+    "@angular/platform-browser-dynamic": "~13.2.0",
+    "@angular/router": "~13.2.0",
+    "bootstrap": "^4.6.0",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~13.2.1",
+    "@angular/cli": "~13.2.1",
+    "@angular/compiler-cli": "~13.2.0",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "codelyzer": "^6.0.0",
+    "eslint": "^8.12.0",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~6.3.2",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^13.0.0",
+    "ts-node": "~8.3.0",
+    "typescript": "~4.4.4",
+    "webpack-bundle-analyzer": "^4.5.0"
+  }
+}
